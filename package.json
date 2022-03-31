@@ -1,0 +1,25 @@
+{
+  "name": "nowander",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint:prettier": "prettier --write  \"vite/**/*.{js,ts,json,tsx,css,less,scss,vue,html,md}\""
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "pinia": "^2.0.12",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "eslint": "^8.11.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "prettier": "^2.6.0",
+    "sass": "^1.49.10",
+    "vite": "^2.8.0"
+  }
+}
