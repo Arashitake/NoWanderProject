@@ -4,8 +4,8 @@ import axios from 'axios';
 // import store from '@/store';
 
 const service = axios.create({
-  // baseURL: 'http://localhost:8888',
-  baseURL: 'https://service-dxtrccme-1302998929.gz.apigw.tencentcs.com',
+  baseURL: 'http://119.23.214.198:8080',
+  // baseURL: 'https://service-dxtrccme-1302998929.gz.apigw.tencentcs.com',
   timeout: 1000
 });
 

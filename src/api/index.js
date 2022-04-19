@@ -1,9 +1,10 @@
 import request from '@/utils/request.js';
 
 export default {
-  async getList() {
+  async getArticle() {
     return request({
-      url: '/release/accordin',
+      url: '/articles/public/1',
+      // url: '/release/accordin',
       method: 'GET'
     });
   }

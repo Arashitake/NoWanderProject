@@ -15,9 +15,13 @@ export default defineConfig({
     // open: true,
     proxy: {
       '/api': {
-        target: '',
+        target: 'http://119.23.214.198:8080',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\api/, '')
+        rewrite: (path) => path.replace(/^\/api/, '')
+      },
+      '/other': {
+        target: 'http://119.23.214.198:8080',
+        changeOrigin: true
       }
     }
   }
